@@ -97,7 +97,7 @@ main {
 .card-img {
     width: 300px; 
     border-radius: 15px;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .card-info {
@@ -111,4 +111,12 @@ main {
     max-width: 1em;
     max-height: 1em;
     padding-right: 1em;
+}
+
+.info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
